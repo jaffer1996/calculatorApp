@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+h2 {
+    position: absolute;
+    right: 580px;
+    top: 15px;
+}
+
+.form {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+.dropdown {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+table {
+    border: 1px;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    width: 600px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.submit {
+    position: absolute;
+    top: 200px;
+    left: 210px;
+}
+
+.result{
+    margin-left: 20px;
+    font-size: large;
+}
+
+.alert {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
